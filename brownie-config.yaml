@@ -1,0 +1,9 @@
+dependencies:
+  - axelarnetwork/axelar-cgp-solidity@4.3.1
+  - smartcontractkit/chainlink@1.10.0
+compiler:
+  solc:
+    remappings:
+      - "@axelar=axelarnetwork/axelar-cgp-solidity@4.3.1"
+      - "@chainlink=smartcontractkit/chainlink@1.10.0"
+dotenv: .env
